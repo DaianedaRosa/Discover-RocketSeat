@@ -21,6 +21,7 @@ Esse repositório foi feito para estudos/treinamentos das aulas dessa plataforma
 ---
 
 ## Conectar
+   Trilha de conhecimento para primeiro contato com a programação.
 
 - Guia estelar de Programação ✅
 - Computador, Software e Hardware ✅
@@ -28,6 +29,22 @@ Esse repositório foi feito para estudos/treinamentos das aulas dessa plataforma
 - Sistemas Operacionais ✅
 - Linguagens de Programação ✅
 - Tipos de aplicações web ✅
+
+## <img src="./assets/discover-conectar-certificate.png" width="450"/>
+  
+## Fundamentar
+   Trilha para aprender os fundamentos da programação web.
+
+- Ambiente Dev ✅
+- Guia estelar de Css 🚧
+- Nem tudo são Pixels 🚧
+- Uma caixa dentro da outra 🚧
+- Agora sim, cores 🚧
+  - Cores 🚧
+  - Background 🚧
+- Posso ver e ouvir o HTML 🚧
+  - Audio e Vídeo 🚧
+  - Images 🚧
   
 
 
