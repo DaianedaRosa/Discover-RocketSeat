@@ -8,7 +8,7 @@ CSS não é uma linguagem de programação, é uma linguagem style sheet, pois m
 
 ---
 
-#### Comentários
+#### COMENTÁRIOS
 
 Os comentários no css não irão afetar seu código, mas pode nos ajudar a lembrar de blocos de códigos ou agrupar e organizar nosso código, deixa dicas para a leitura e ajuda os outros a entenderem nosso código. Não esqueça de fechar um comentário aberto.
 
@@ -24,7 +24,7 @@ Você também pode usar um comentário para desabilitar partes do seu código, o
 
 ---
 
-#### Anatomia
+#### ANATOMIA
 
 temos o nome de algum elemento, uma chave aberta e uma fechada embaixo, e no meio vamos ter propriedades e seus valores.
 
@@ -52,7 +52,7 @@ Os elementos do CSS são então:
 
 ---
 
-#### Seletores
+#### SELETORES
 
 Os seletores são o que conectam um elemento **HTML** com o **CSS**, existem vários tipos, Também temos o **seletor global**, que é um **\*** (asterisco), **ID selector**, que é **#** (cerquilha, cardinal) e o **ID do elemento HTML**, class selector, que é um **.** (ponto) e o **nome da classe**, e mais alguns outros.
 
@@ -86,7 +86,7 @@ h1,h2 {
 
 ---
 
-### Box Model
+#### BOX MODEL
 
 É uma caixa retangular que possui as mesmas propriedades de uma caixa 2D, e tem como propriedades:
 
@@ -100,7 +100,7 @@ Quase todo elemento de uma página é considerado uma **caixa**: Posicionamentos
 
 ---
 
-### Modos de colocar o Css
+#### MODOS DE COLOCAR O CSS
 
 O primeiro será o inline, que é dentro do próprio HTML, através da tag style, utilizada das seguintes formas:
 
@@ -141,7 +141,7 @@ Não é recomendado seu uso, pois leva um pouco mais de tempo do que através da
 
 ---
 
-### Cascata
+#### CASCATA
 
 Seu estilo é lido de cima para baixo, ou seja, caso haja algum selector com informações conflitantes, o mais embaixo é o que será atribuído.
 
@@ -153,7 +153,7 @@ São levados em consideração 3 fatores:
 
 ---
 
-### Especifidade
+#### ESPECIFICIDADE
 
 É um cálculo matemático, onde cada tipo de **seletor** e **origem** do estilo possuem valores a serem considerados.
 
@@ -167,13 +167,13 @@ São levados em consideração 3 fatores:
 
 ---
 
-### Important
+#### IMPORTANT
 
 São raras as ocasiões nas quais se devem usar um `!important`, pois é em geral uma má pratica, visto que quebra o fluxo natural da cascata e pode acabar te atrapalhando caso você a deixe em algum lugar no seu código.
 
 ---
 
-### At rules
+#### AT RULES
 
 São regras relacionadas ao comportamento do CSS, começa com um sinal de **@** seguido do **identificador** e do **valor**.
 
@@ -186,7 +186,7 @@ São as seguintes:
 
 ---
 
-### Shorthand
+#### SHORTHAND
 
 É basicamente a ideia de **junção** de **propriedades**, para que fiquem de forma resumida e legível.
 
@@ -225,7 +225,7 @@ Abaixo um exemplo de propriedades com e sem o shorthand:
 
 ---
 
-### Funções
+#### FUNÇÕES
 
 Um tipo de valor existente no CSS, é estruturado com um nome seguido de abre e fecha parênteses.
 
@@ -239,7 +239,7 @@ color: rgb(255,0,100);
 
 ---
 
-### Vendor Prefixes
+### VENDOR PREFIXES
 
 São coisas que permitem que browsers adiocionem features a fim de colocar em uso alguma novidade que vemos no CSS.
 
@@ -258,3 +258,67 @@ Você também pode consultar se a feature pode ser utilizada através dos sites:
 https://ireade.github.io/which-vendor-prefix
 
 https://caniuse.com
+
+#### PAGE LAYOUTS
+
+- Tables
+- Floats e clear
+- Frameworks e Grid Systems
+- Flexbox
+- Grid
+
+### POSICIONAMENTOS
+
+- Controla onde, na página, o elemento irá ficar, alterando o fluxo normal dos elementos.
+
+- Name: position
+  Value: static | relative | absolute | fixed
+  Lembrando que o fluxo normal dos elementos é ficar um abaixo do outro, a não ser no caso de elementos inline, que ficam um ao lado do outro.
+
+  ## Static:
+
+  - Padrão
+
+  ## Relative:
+
+  - O position indica onde o elemento vai ser posicionado na página. Ao usar o position podemos adicionar outras propriedades como top, right, bottom, left e z-index, que vão determinar o posicionamento final do elemento.
+
+  - Quando o position é relative os elementos são deslocados do seu posicionamento normal, mas sem afetar o posicionamento de outros elementos da página.
+
+  ## Absolute
+
+  - Quando o position é absolute o elemento é deslocado saindo do fluxo normal. O elemento de position absolute é posicionado em relação ao seu parent element mais próximo. Se esse elemento "pai" não existir, ele será posicionando em relação ao bloco contendo a raiz do elemento.
+
+  ## Fixed
+
+  -Quando aplicado o position fixed é como se criasse um elemento flutuante que fica fixo na página, independente do scrolling feito.
+
+  ## Z-index
+
+  - É o empilhamento de elementos. Podemos usar o z-index para determinar a ordem da posição do elemento. Quanto maior o z-index, mais "acima" vai aparecer o elemento.
+
+  ## Flexbox
+
+  - Nos permite posicionar os elementos dentro da caixa
+    Controle em uma dimensão (horizontal ou vertical)
+    Alinhamento, direcionamento, ordenar e tamanhos
+
+  ```CSS
+  div.parent {
+  display: flex;
+  }
+  ```
+
+  - Flex-direction
+    Qual a direção do flex: horizontal ou vertical
+    row | column
+
+  - Alinhamento
+    justify-content | align-items
+
+  ## Grid
+
+  - Posicionamento dos elementos dentro da caixa
+  - Posicionamento horizontal e vertical ao mesmo tempo
+  - Pode ser flexível ou fixo
+  - Cria espaços para os elementos filhos habitarem
