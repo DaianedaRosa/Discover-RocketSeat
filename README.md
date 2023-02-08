@@ -33,7 +33,7 @@ Esse repositório foi feito para estudos/treinamentos das aulas dessa plataforma
 ## <img src="./assets/discover-conectar-certificate.png" width="450"/>
   
 ## Fundamentar
-   Trilha para aprender os fundamentos da programação web.
+   Trilha para aprender os fundamentos da programação web
 
 - Ambiente Dev ✅
 - Guia estelar de Css 🚧
@@ -45,6 +45,20 @@ Esse repositório foi feito para estudos/treinamentos das aulas dessa plataforma
 - Posso ver e ouvir o HTML 🚧
   - Audio e Vídeo 🚧
   - Images 🚧
-  
+- Posicionando foguetes 🚧
+- App bonito, até nos textos 🚧
+  - Trabalhando com fontes 🚧
+  - Mais estilos para os textos 🚧
+- Formulários de outro planeta 🚧
+  - Introdução ✅
+  - Estrutura ✅
+  - Tags de Entrada de Dados 🚧
+  - Criando um formulário 🚧
+- HTML que faz sentido, para todos ✅
+- Nem só de classes ou IDs 🚧
+  - Selectors and Combinators 🚧
+  - Pseudo-classes 🚧
+  - Pseudo-elements 🚧
+
 
 
