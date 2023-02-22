@@ -23,7 +23,6 @@ Uma expressão que será validada no final de cada iteração de loop. Isso ocor
 
 Uma declaração que é executada enquanto a condição for verdadeira. Para executar múltiplas condições dentro do loop, use uma instrução de bloco ({...}) para agrupar essas condições. Para não executar declarações dentro do loop, use uma instrução vazia .
 
----
 
 #### While
 
